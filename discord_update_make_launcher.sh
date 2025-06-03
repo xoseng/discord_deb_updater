@@ -13,7 +13,7 @@ cat > "$DESKTOP_FILE" <<EOF
 [Desktop Entry]
 Name=Actualizar Discord
 Comment=Actualiza Discord a la última versión desde script
-Exec=sh -c 'bash "$SCRIPT_PATH"; echo; read -p "Pulsa Enter para cerrar..."'
+Exec=sh -c 'sudo bash "$SCRIPT_PATH"; echo; read -p "Pulsa Enter para cerrar..."'
 Icon=${ICON_PATH:-utilities-terminal}
 Terminal=true
 Type=Application
